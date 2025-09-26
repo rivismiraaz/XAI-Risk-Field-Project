@@ -1,0 +1,26 @@
+{
+    "urban": {
+        "weights": {
+            "p_crowd": 0, "p_traffic": 0, "p_interaction": 0, "p_comm_factor": 0, "p_wind_factor": 0,
+            "h_comm_cost": 0.3, "h_blackout_penalty": 1.0, "h_wind_cost": 0.2, "h_extreme_wind_penalty": 1.0,
+            "h_terrain_cost": 0.9, "h_terrain_comm_synergy": 0.5
+        },
+        "thresholds": { "comm_blackout": 0.9, "extreme_wind": 0.8 }
+    },
+    "military": {
+        "weights": {
+            "p_crowd": 0, "p_traffic": 0, "p_interaction": 0, "p_comm_factor": 0, "p_wind_factor": 0,
+            "h_comm_cost": 0.6, "h_blackout_penalty": 1.0, "h_wind_cost": 0.5, "h_extreme_wind_penalty": 1.0,
+            "h_terrain_cost": 0.3, "h_terrain_comm_synergy": 0.6
+        },
+        "thresholds": { "comm_blackout": 0.9, "extreme_wind": 0.8 }
+    },
+    "rural": {
+        "weights": {
+            "p_crowd": 0, "p_traffic": 0, "p_interaction": 0, "p_comm_factor": 0, "p_wind_factor": 0,
+            "h_comm_cost": 0.8, "h_blackout_penalty": 1.0, "h_wind_cost": 0.8, "h_extreme_wind_penalty": 1.0,
+            "h_terrain_cost": 0.1, "h_terrain_comm_synergy": 0.2
+        },
+        "thresholds": { "comm_blackout": 0.95, "extreme_wind": 0.9 }
+    }
+}
