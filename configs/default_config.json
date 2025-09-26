@@ -1,0 +1,19 @@
+{
+    "grid": {
+        "dimensions": [100, 100],
+        "spacing": [1, 1]
+    },
+    "risk_types": ["collision", "exposure", "energy", "communication", "threat"],
+    "model": {
+        "latent_dim": 16,
+        "gnn_layers": 3,
+        "gat_heads": 4
+    },
+    "training": {
+        "epochs": 100,
+        "batch_size": 4,
+        "learning_rate": 0.001,
+        "ortho_loss_weight": 0.1,
+        "validation_split": 0.2
+    }
+}
